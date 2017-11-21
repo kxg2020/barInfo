@@ -1,0 +1,1090 @@
+---------------------------------------------------------------
+[ 2017-10-19T14:54:53+08:00 ] 192.168.171.44 192.168.171.9 POST /api/put?index=heartbeat&usertype=2&loginno=75
+[ log ] array (
+  '客服消息' => '{"chat_content":"\\u65b0\\u7528\\u6237\\u5df2\\u7ecf\\u8fde\\u63a5\\u6210\\u529f","chat_from":"44032710000308","chat_object":"3","chat_time":"2017-10-19 14:54:52","chat_to":"75","type":"message"}',
+)
+---------------------------------------------------------------
+[ 2017-10-19T14:55:01+08:00 ] 192.168.171.44 192.168.171.44 POST /api/send/index?usertype=1&loginno=44032710000308&putto=75&pic_name=0uTRlFG7xRpCTrw.bmp
+[ log ] array (
+  '数据1' => '{"usertype":"1","loginno":"44032710000308","putto":"75","pic_name":"0uTRlFG7xRpCTrw.bmp"}',
+)
+[ log ] array (
+  '数据1-1' => false,
+)
+---------------------------------------------------------------
+[ 2017-10-19T14:55:02+08:00 ] 192.168.171.44 192.168.171.9 POST /api/put?index=heartbeat&usertype=2&loginno=75
+[ log ] array (
+  '客服消息' => '{"chat_content":"\\/c[\\"0uTRlFG7xRpCTrw.bmp\\"]","chat_from":"44032710000308","chat_object":"1","chat_time":"2017-10-19 14:55:01","chat_to":"75","type":"message"}',
+)
+---------------------------------------------------------------
+[ 2017-10-19T14:55:02+08:00 ] 192.168.171.44 192.168.171.9 POST /api/receive/index?usertype=2&loginno=75
+[ log ] array (
+  '图片消息2' => 'null',
+)
+---------------------------------------------------------------
+[ 2017-10-19T14:55:03+08:00 ] 192.168.171.44 192.168.171.9 POST /api/put?index=heartbeat&usertype=2&loginno=75
+[ log ] array (
+  '客服消息' => '{"chat_content":"\\/c[\\"0uTRlFG7xRpCTrw.bmp\\"]","chat_from":"44032710000308","chat_object":"1","chat_time":"2017-10-19 14:55:01","chat_to":"75","type":"message"}',
+)
+---------------------------------------------------------------
+[ 2017-10-19T14:57:48+08:00 ] 192.168.171.44 192.168.171.61 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T14:58:43+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T15:03:56+08:00 ] 192.168.171.44 192.168.171.9 POST /api/put?index=heartbeat&usertype=2&loginno=75
+[ log ] array (
+  '客服消息' => '{"chat_content":"\\u65b0\\u7528\\u6237\\u5df2\\u7ecf\\u8fde\\u63a5\\u6210\\u529f","chat_from":"44032710000308","chat_object":"3","chat_time":"2017-10-19 15:03:56","chat_to":"75","type":"message"}',
+)
+---------------------------------------------------------------
+[ 2017-10-19T15:04:03+08:00 ] 192.168.171.44 192.168.171.44 POST /api/send/index?usertype=1&loginno=44032710000308&putto=75&pic_name=afATRsxMYRMt.png
+[ log ] array (
+  '数据1' => '{"usertype":"1","loginno":"44032710000308","putto":"75","pic_name":"afATRsxMYRMt.png"}',
+)
+[ log ] array (
+  '数据1-1' => '{"name":"arrow.png","type":"application\\/octet-stream","size":3458,"key":0,"ext":"png","md5":"b5951ad9dcf76ba1d6cdb84fa3fd19d0","sha1":"c81bbc171530eb7d6bf8b208013f62cc00817c6c","savename":"59e84e63d2014.png","savepath":"2017-10-19\\/"}',
+)
+---------------------------------------------------------------
+[ 2017-10-19T15:04:04+08:00 ] 192.168.171.44 192.168.171.9 POST /api/put?index=heartbeat&usertype=2&loginno=75
+[ log ] array (
+  '客服消息' => '{"chat_content":"\\/c[\\"afATRsxMYRMt.png\\"]","chat_from":"44032710000308","chat_object":"1","chat_time":"2017-10-19 15:04:03","chat_to":"75","type":"message"}',
+)
+---------------------------------------------------------------
+[ 2017-10-19T15:04:05+08:00 ] 192.168.171.44 192.168.171.9 POST /api/receive/index?usertype=2&loginno=75
+[ log ] array (
+  '图片消息2' => '{"name":"arrow.png","type":"application\\/octet-stream","size":3458,"key":0,"ext":"png","md5":"b5951ad9dcf76ba1d6cdb84fa3fd19d0","sha1":"c81bbc171530eb7d6bf8b208013f62cc00817c6c","savename":"59e84e63d2014.png","savepath":"2017-10-19","file_from":"44032710000308","file_to":"75","pic_name":"afATRsxMYRMt.png"}',
+)
+---------------------------------------------------------------
+[ 2017-10-19T15:04:06+08:00 ] 192.168.171.44 192.168.171.9 POST /api/put?index=heartbeat&usertype=2&loginno=75
+[ log ] array (
+  '客服消息' => '{"chat_content":"\\/c[\\"afATRsxMYRMt.png\\"]","chat_from":"44032710000308","chat_object":"1","chat_time":"2017-10-19 15:04:03","chat_to":"75","type":"message"}',
+)
+---------------------------------------------------------------
+[ 2017-10-19T15:11:52+08:00 ] 192.168.171.44 192.168.171.99 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T15:13:51+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T15:16:34+08:00 ] 192.168.171.44 192.168.171.40 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T15:18:08+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T15:25:12+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T15:43:22+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T15:44:31+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T15:49:54+08:00 ] 192.168.171.44 192.168.171.61 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T15:51:30+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T16:04:23+08:00 ] 192.168.171.44 192.168.171.99 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T16:08:19+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T16:08:54+08:00 ] 192.168.171.44 192.168.171.40 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T16:10:15+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T16:18:20+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T16:36:19+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T16:42:10+08:00 ] 192.168.171.44 192.168.171.61 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T16:44:42+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T16:56:06+08:00 ] 192.168.171.44 192.168.171.99 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T17:00:48+08:00 ] 192.168.171.44 192.168.171.40 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T17:01:47+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T17:02:27+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T17:10:55+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T17:28:14+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T17:33:50+08:00 ] 192.168.171.44 192.168.171.61 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T17:37:09+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T17:47:50+08:00 ] 192.168.171.44 192.168.171.99 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T17:52:37+08:00 ] 192.168.171.44 192.168.171.40 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T17:54:26+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T17:55:15+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T18:04:31+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T18:20:40+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T18:25:43+08:00 ] 192.168.171.44 192.168.171.61 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T18:32:48+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T18:42:26+08:00 ] 192.168.171.44 192.168.171.99 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T18:44:59+08:00 ] 192.168.171.44 192.168.171.40 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T18:47:34+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T18:50:34+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T18:59:56+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T19:14:00+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T19:16:13+08:00 ] 192.168.171.44 192.168.171.61 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T19:16:15+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T19:24:55+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T19:32:28+08:00 ] 192.168.171.44 192.168.171.99 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T19:35:07+08:00 ] 192.168.171.44 192.168.171.40 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T19:40:33+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T19:42:09+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T19:49:22+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T20:05:01+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T20:05:26+08:00 ] 192.168.171.44 192.168.171.61 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T20:06:22+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T20:13:24+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T20:19:52+08:00 ] 192.168.171.44 192.168.171.99 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T20:22:41+08:00 ] 192.168.171.44 192.168.171.40 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T20:28:43+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T20:29:59+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T20:37:03+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T20:51:42+08:00 ] 192.168.171.44 192.168.171.61 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T20:51:55+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T20:54:07+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T20:59:52+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T21:05:40+08:00 ] 192.168.171.44 192.168.171.99 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T21:08:37+08:00 ] 192.168.171.44 192.168.171.40 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T21:14:44+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T21:15:32+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T21:22:41+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T21:36:30+08:00 ] 192.168.171.44 192.168.171.61 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T21:38:51+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T21:40:04+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T21:45:30+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T21:50:30+08:00 ] 192.168.171.44 192.168.171.99 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T21:53:33+08:00 ] 192.168.171.44 192.168.171.40 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T22:01:09+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T22:02:05+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T22:08:19+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T22:21:19+08:00 ] 192.168.171.44 192.168.171.61 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T22:24:57+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T22:31:09+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T22:35:23+08:00 ] 192.168.171.44 192.168.171.99 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T22:38:30+08:00 ] 192.168.171.44 192.168.171.40 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T22:46:49+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T22:47:48+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T22:53:57+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T23:06:31+08:00 ] 192.168.171.44 192.168.171.61 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T23:10:21+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T23:17:01+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T23:20:24+08:00 ] 192.168.171.44 192.168.171.99 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T23:23:22+08:00 ] 192.168.171.44 192.168.171.40 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T23:32:46+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T23:33:23+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T23:40:13+08:00 ] 192.168.171.44 192.168.171.7 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T23:51:23+08:00 ] 192.168.171.44 192.168.171.61 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response
+---------------------------------------------------------------
+[ 2017-10-19T23:55:24+08:00 ] 192.168.171.44 192.168.171.69 OPTIONS /
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined variable: userinfo' in D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php:81
+Stack trace:
+#0 D:\phpStudy\WWW\tp5\runtime\temp\5bca714f450734262628cea6e83e3c42.php(81): think\Error::appError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 81, Array)
+#1 D:\phpStudy\WWW\tp5\thinkphp\library\think\template\driver\File.php(50): include('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\tp5\thinkphp\library\think\Template.php(197): think\template\driver\File->read('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\tp5\thinkphp\library\think\view\driver\Think.php(84): think\Template->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#4 D:\phpStudy\WWW\tp5\thinkphp\library\think\View.php(159): think\view\driver\Think->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#5 D:\phpStudy\WWW\tp5\thinkphp\library\think\response\View.php(36): think\View->fetch('D:\\phpStudy\\WWW...', Array, Array)
+#6 D:\phpStudy\WWW\tp5\thinkphp\library\think\Response

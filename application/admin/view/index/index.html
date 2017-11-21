@@ -1,0 +1,470 @@
+{extend name="layout/layout"/}
+
+{block name="title"}
+首页
+{/block}
+{block name="css"}
+<link rel="stylesheet" href="admin_public/date/dateRange.css">
+{/block}
+{block name="page-head"}
+<!-- page heading start-->
+<div class="page-heading">
+    <h3>
+        首页
+    </h3>
+    <ul class="breadcrumb">
+        <li>
+            <a href="#">首页</a>
+        </li>
+        <li class="active"> 概况 </li>
+    </ul>
+
+    <div class="state-info">
+        <section class="panel">
+            <div class="panel-body">
+                <div class="summary">
+                    <span>客服总人数</span>
+                    <h3 class="red-txt">{$staff}</h3>
+                </div>
+                <div id="income" class="chart-bar"><canvas width="82" height="35" style="display: inline-block; width: 82px; height: 35px; vertical-align: top;"></canvas></div>
+            </div>
+        </section>
+        <section class="panel">
+            <div class="panel-body">
+                <div class="summary">
+                    <span>用户总人数</span>
+                    <h3 class="green-txt">{$user}</h3>
+                </div>
+                <div id="expense" class="chart-bar"><canvas width="68" height="35" style="display: inline-block; width: 68px; height: 35px; vertical-align: top;"></canvas></div>
+            </div>
+        </section>
+    </div>
+</div>
+<!-- page heading end-->
+
+{/block}
+
+
+{block name="content"}
+
+<div class="row">
+    <div class="col-md-7">
+        <!--statistics start-->
+        <div class="row state-overview">
+            <div class="col-md-6 col-xs-12 col-sm-6">
+                <div class="panel purple">
+                    <div class="symbol">
+                        <i class="fa fa-gavel"></i>
+                    </div>
+                    <div class="state-value">
+                        <div class="value" id="user-number">0</div>
+                        <div class="title">在线用户人数</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-6">
+                <div class="panel red">
+                    <div class="symbol">
+                        <i class="fa fa-tags"></i>
+                    </div>
+                    <div class="state-value">
+                        <div class="value" id="staff-number">0</div>
+                        <div class="title">在线客服人数</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row state-overview">
+            <div class="col-md-6 col-xs-12 col-sm-6">
+                <div class="panel blue">
+                    <div class="symbol">
+                        <i class="fa fa-money"></i>
+                    </div>
+                    <div class="state-value">
+                        <div class="value">22014</div>
+                        <div class="title">最新连接用户</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12 col-sm-6">
+                <div class="panel green">
+                    <div class="symbol">
+                        <i class="fa fa-eye"></i>
+                    </div>
+                    <div class="state-value">
+                        <div class="value">390</div>
+                        <div class="title">最新退出用户</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--statistics end-->
+    </div>
+    <div class="col-md-5">
+        <!--more statistics box start-->
+        <div class="panel deep-purple-box">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div id="graph-donut" class="revenue-graph">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--more statistics box end-->
+    </div>
+
+        <div class="col-md-8">
+            <div class="panel">
+                <div class="panel-body">
+                    <div class="row revenue-states">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <h4>客服服务人数</h4>
+                            <div class="icheck">
+                                <div class="square-red single-row">
+                                    <div class="checkbox ">
+                                        <div class="icheckbox_square-red checked" style="position: relative;"><input type="checkbox" checked="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
+                                        <label>Online</label>
+                                    </div>
+                                </div>
+                                <div class="square-blue single-row">
+                                    <div class="checkbox ">
+                                        <div class="icheckbox_square-blue" style="position: relative;"><input type="checkbox" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
+                                        <label>Offline </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+
+                            <div class="ta_date" id="div_date2" style=";height: 32px;padding-top: 3px;float: right" >
+                                <span class="date_title" id="date2" style=""></span>
+                                <a class="opt_sel" id="input_trigger2" href="#">
+                                    <i class="i_orderd"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="clearfix">
+                                <div id="main-chart-legend" class="pull-right">
+
+                                </div>
+                            </div>
+
+                            <div id="main-chart">
+                                <div id="main-chart-container" class="main-chart" style="padding: 0px; position: relative;">
+
+
+
+
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <ul class="revenue-short-info text-center">
+                                <li>
+                                    <h1 class="red">15%</h1>
+                                    <p>Server Load</p>
+                                </li>
+                                <li>
+                                    <h1 class="purple">30%</h1>
+                                    <p>Disk Space</p>
+                                </li>
+                                <li>
+                                    <h1 class="green">84%</h1>
+                                    <p>Transferred</p>
+                                </li>
+                                <li>
+                                    <h1 class="blue">28%</h1>
+                                    <p>Temperature</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel">
+                <header class="panel-heading">
+                    客服累计好评率
+                    <span class="tools pull-right">
+                                <a href="javascript:;" class="fa fa-chevron-down"></a>
+                                <a href="javascript:;" class="fa fa-times"></a>
+                             </span>
+                </header>
+                <div class="panel-body">
+                    <ul class="goal-progress">
+
+                       {volist name="rateData" id="ra"}
+                        <li>
+                            <div class="prog-avatar">
+                                <img src="{$ra['icon']}" alt="">
+                            </div>
+                            <div class="details">
+                                <div class="title">
+                                    <a href="#">{$key}</a>
+                                </div>
+                                <div class="progress progress-xs">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: {$ra['nice']}%">
+                                        <span class="">{$ra['nice']}%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        {/volist}
+                    </ul>
+                    <input type="hidden" name="begin-date" value="{:date('Y-m-d',strtotime('-6 days'))}">
+                </div>
+            </div>
+        </div>
+    <input type="hidden" name="staffs" data-name={$staff_name}>
+    <input type="hidden" name="colors" data-color={$staff_color}>
+    <input type="hidden" name="data" data-data={$staff_data}>
+    <input type="hidden" name="new-date" data-date={$new_date}>
+    </div>
+{/block}
+
+{block name="js"}
+<script src="admin_public/date/dateRange.js"></script>
+<script src="admin_js/echarts.common.min.js"></script>
+<script src="admin_layer/layer/layer.js"></script>
+<script>
+    $(function () {
+        //图表制作
+        var myChartA = echarts.init(document.getElementById('main-chart-container'));
+        var myChartB = echarts.init(document.getElementById('graph-donut'));
+
+        // 客服名字
+        var staff_name = $('input[name=staffs]').attr('data-name');
+        // 日期
+        var date = $('input[name = new-date]').attr('data-date');
+        // 数据
+        var data = $('input[name = data]').attr('data-data');
+
+        // 颜色
+        var color = $('input[name = colors]').attr('data-color');
+
+        // 将字符串转换成对象
+        staff_name = eval("("+staff_name+")");
+        date = eval("("+date+")");
+        data =  eval("("+data+")");
+        color = eval("("+color+")");
+        function getMyChart(){
+
+
+            // 指定图表的配置项和数据
+            var optionA = {
+                title: {
+                    text: '趋势图'
+                },
+                tooltip: {
+                    trigger: 'axis'
+                },
+                legend: {
+                    data:staff_name,
+                },
+                grid: {
+                    left: '3%',
+                    right: '4%',
+                    bottom: '3%',
+                    containLabel: true
+                },
+                toolbox: {
+                    feature: {
+                        saveAsImage: {}
+                    }
+                },
+                xAxis: {
+                    type: 'category',
+                    boundaryGap: false,
+                    data: date,
+                    axisLabel :{
+                        interval:0
+                    }
+                },
+                yAxis: {
+                    type: 'value',
+                    axisLabel : {
+                        formatter: '{value} 人'
+                    }
+                },
+                series:data,
+                color:color
+            };
+
+            optionB = {
+                color: ['#ffd285', '#ff733f', '#ec4863'],
+
+                title: [{
+                    text: '城市宝周新增用户报表',
+                    left: '1%',
+                    top: '1%',
+                    textStyle: {
+                        color: '#fff'
+                    }
+                }],
+                tooltip: {
+                    trigger: 'axis'
+                },
+                legend: {
+                    x: 300,
+                    top: '7%',
+                    textStyle: {
+                        color: '#ffd285',
+                    },
+                    data: ['在大理', '标准版', '潍V']
+                },
+                grid: {
+                    left: '1%',
+                    right: '3%',
+                    top: '16%',
+                    bottom: '6%',
+                    containLabel: true
+                },
+                toolbox: {
+                    "show": false,
+                    feature: {
+                        saveAsImage: {}
+                    }
+                },
+                xAxis: {
+                    type: 'category',
+                    "axisLine": {
+                        lineStyle: {
+                            color: '#FF4500'
+                        }
+                    },
+                    "axisTick": {
+                        "show": false
+                    },
+                    axisLabel: {
+                        textStyle: {
+                            color: '#fff'
+                        }
+                    },
+                    boundaryGap: false,
+                    data: ['周一', '周二', '周三', '周四', '周五', '周六', '周日']
+                },
+                yAxis: {
+                    "axisLine": {
+                        lineStyle: {
+                            color: '#fff'
+                        }
+                    },
+                    splitLine: {
+                        show: true,
+                        lineStyle: {
+                            color: '#fff'
+                        }
+                    },
+                    "axisTick": {
+                        "show": false
+                    },
+                    axisLabel: {
+                        textStyle: {
+                            color: '#fff'
+                        }
+                    },
+                    type: 'value'
+                },
+                series: [{
+                    name: '在大理',
+                    smooth: true,
+                    type: 'line',
+                    symbolSize: 8,
+                    symbol: 'circle',
+                    data: [90, 50, 39, 50, 120, 82, 80]
+                }, {
+                    name: '标准版',
+                    smooth: true,
+                    type: 'line',
+                    symbolSize: 8,
+                    symbol: 'circle',
+                    data: [70, 50, 50, 87, 90, 80, 70]
+                }, {
+                    name: '潍V',
+                    smooth: true,
+                    type: 'line',
+                    symbolSize: 8,
+                    symbol: 'circle',
+                    data: [290, 200,20, 132, 15, 200, 90]
+                }]
+            }
+            // 使用刚指定的配置项和数据显示图表。
+            myChartA.setOption(optionA);
+            myChartB.setOption(optionB);
+        }
+        getMyChart();
+
+
+        // 日期选择
+        var yesterday = $('input[name = begin-date]').val();
+        var time = new Date();
+        var now = time.getFullYear()+'-'+(time.getMonth()+1)+'-'+time.getDate();
+        var dateRange = new pickerDateRange('date2', {
+            isTodayValid : true,
+            startDate : yesterday,
+            endDate : now,
+            needCompare : false,
+            defaultText : ' 至 ',
+            autoSubmit : true,
+            inputTrigger : 'input_trigger2',
+            theme : 'ta',
+            dayRangeMax : 6,
+            success : function(obj) {
+
+                // 判断日期是否大于12
+                var start = new Date(obj.startDate.replace(/-/g, "/"));
+                var end = new Date(obj.endDate.replace(/-/g, "/"));
+                // 相差天数
+                var days =  end.getTime()- start.getTime();
+                var time = parseInt(days / (1000 * 60 * 60 * 24));
+
+                if(time > 12){
+
+                    layer.tips('时间间隔不能超过12天','div[class = ta_date]',{tips:3});
+
+                    return false;
+                }
+                var url = location.protocol+'//'+window.location.host+'/admin/index/SelectByDate';
+                $.ajax({'type':'post', 'dataType':'json', 'url':url, 'data':{'start':obj.startDate,'end':obj.endDate}, success:function (e) {
+                    staff_name = e.staff_name;
+                    date = e.new_date;
+                    data =  e.staff_data;
+                    getMyChart();
+                }
+                });
+
+
+            }
+        });
+    })
+</script>
+<script>
+    // 假设服务端ip为127.0.0.1
+    ws = new WebSocket("ws://127.0.0.1:8080");
+    ws.onopen = function() {
+
+        ws.send('tom');
+
+    };
+    ws.onmessage = function(e) {
+
+        var data = eval("("+e.data+")");
+        console.log(data);
+        // 修改值
+        $('#user-number').text(data.user);
+        $('#staff-number').text(data.staff);
+
+    };
+</script>
+
+{/block}
